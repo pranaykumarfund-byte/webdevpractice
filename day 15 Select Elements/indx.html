@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdown</title>
+    <title>Dropdown,Input range</title>
 </head>
 <body>
     <form action="/server">
         <div>
              Choose your profession :
-            <select value="profession" id="profession">
+            <select name="profession" id="profession">
               <option>Select your option</option>
               <option value="Stu">Student</option>
               <option value="Dev">Developer</option>
             </select>
+            <br>
+            <label for="volume">Volume</label>
+            <input type="range" min="0" max="100" step="10" value="70" name="vol"/>
             <br>
             <button>submit</button>
         </div>
