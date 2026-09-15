@@ -1,0 +1,12 @@
+h1{
+    text-align:center;
+    text-decoration:red underline;
+}
+h2{
+    text-align:center;
+    text-decoration:black overline;
+}
+p {
+    text-align:center;
+    text-decoration:yellow line-through;
+}
