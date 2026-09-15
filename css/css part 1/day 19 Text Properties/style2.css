@@ -1,0 +1,12 @@
+h1{
+    font-weight:bolder;
+    text-align:center;
+}
+h2 {
+    font-weight:lighter;
+    text-align:center;
+}
+p {
+    font-weight:normal;
+    text-align:center;
+}
