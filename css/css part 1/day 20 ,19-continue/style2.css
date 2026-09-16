@@ -1,9 +1,12 @@
 h1{
     letter-spacing:normal;
+    font-size:90px
 }
 h2{
     letter-spacing:5px;
+    font-size:50px;
 }
 p{
     letter-spacing:10px;
+    font-size:10px;
 }
