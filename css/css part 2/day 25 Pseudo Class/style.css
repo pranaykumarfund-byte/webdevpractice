@@ -6,3 +6,7 @@ button:active{
     background-color:pink;
     color:green;
 }
+input[type="radio"]:checked + label{
+    color:red;
+    font-weight:bold;
+}
