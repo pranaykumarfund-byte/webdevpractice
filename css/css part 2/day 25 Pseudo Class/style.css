@@ -2,3 +2,7 @@ button:hover{
     color:white;
     background-color:black;
 }
+button:active{
+    background-color:pink;
+    color:green;
+}
