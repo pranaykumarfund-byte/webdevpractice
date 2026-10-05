@@ -1,0 +1,7 @@
+div{
+    height:200px;
+    width:500px;
+    background-color:pink;
+    border:5px solid yellow;
+    border-top:5px dashed blue;
+}
