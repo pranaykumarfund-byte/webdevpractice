@@ -1,0 +1,33 @@
+#one{
+    transform:scale(0.7);
+}
+#two{
+    transform:scale(0.6);
+}
+#three{
+    transform:scale(0.5);
+}
+#four{
+    transform:scale(0.4);
+}
+#five{
+    transform:scale(0.3);
+}
+section{
+    margin-top:100px;
+}
+div{
+    width:200px;
+    height:50px;
+    text-align:centre;
+    background-color:#7aa874;
+    border:2px solid black;
+    margin:10px;
+}
+div:nth-of-type(2n){
+    background-color:#f7db6a;
+
+}
+div:nth-of-type(3n){
+    background:#af9458;
+}
