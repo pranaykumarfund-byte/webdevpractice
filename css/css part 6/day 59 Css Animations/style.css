@@ -2,22 +2,51 @@
     height:100px;
     width:300px;
     background-color:pink;
-    animation-name:widthAnimation;
+    /* animation-name:widthAnimation;
     animation-duration:2s;
     animation-timing-function:ease-in;
     animation-delay:0;
     animation-iteration-count:5;
-    animation-direction:normal;
+    animation-direction:normal; */ 
+    /* animation:widthAnimation 3s ease-in 0s 5 normal; */
+    animation:colAnimation 4s case-in 0s 3 normal;
 }
 @keyframes fontAnimation{
-    form{font-soze:20px;}
-    to{font-size:40px;}
+    form{
+        font-size:20px;
+        background-color:green;
+    }
+    to{
+        font-size:40px;
+        background-color:blue;
+    }
 }
 @keyframes colorAnimation{
     from{background-color:green;}
     to{background-color:blue;}
 }
 @keyframes widthAnimation{
-    from{width:10px;}
-    to{width:400px;}
+    from{
+        width:10px;
+        background-color:green;
+    }
+    to{
+        width:400px;
+        background-color:blue;
+        border-radius:15px;
+    }
+}
+@keyframes colAnimation {
+    0%{
+        background-color:green;
+    }
+    50%{
+        background-color:yellow;
+    }
+    80%{
+        background-color:red;
+    }
+    100%{
+        background-color:blue;
+    }
 }
